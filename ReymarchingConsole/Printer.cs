@@ -68,6 +68,6 @@ public class Printer
             }
         }
         
-        picture.Save("/home/rek/Изображения/picture.png",ImageFormat.Png);
+        picture.Save("./picture.png",ImageFormat.Png);
     }
 }
