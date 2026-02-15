@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JWl6+NplRQY=",
+  "success": true,
+  "projectFilePath": "/home/rek/Рабочий стол/C#/ReymarchingConsole/ReymarchingConsole/ReymarchingConsole.csproj",
+  "expectedPackageFiles": [
+    "/home/rek/.nuget/packages/microsoft.win32.systemevents/10.0.0/microsoft.win32.systemevents.10.0.0.nupkg.sha512",
+    "/home/rek/.nuget/packages/system.drawing.common/10.0.0/system.drawing.common.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

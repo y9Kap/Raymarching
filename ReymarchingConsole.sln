@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReymarchingConsole", "ReymarchingConsole\ReymarchingConsole.csproj", "{DBA9A8A5-DAE6-440E-B543-37DD5FFE5634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBA9A8A5-DAE6-440E-B543-37DD5FFE5634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA9A8A5-DAE6-440E-B543-37DD5FFE5634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA9A8A5-DAE6-440E-B543-37DD5FFE5634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA9A8A5-DAE6-440E-B543-37DD5FFE5634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
