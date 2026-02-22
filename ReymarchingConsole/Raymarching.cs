@@ -103,6 +103,7 @@ public class Raymarching
 
     public double CalculateDist(Vector3D point)
     {
+        if (Objects.Count == 0) return 1e10;
         double result = Objects[0].Distance(point);
         foreach (var obj in Objects)
         {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReymarchingConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02a2d99cac3d4a08e5a53a5c31f2ff6dd8df9385")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReymarchingConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReymarchingConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

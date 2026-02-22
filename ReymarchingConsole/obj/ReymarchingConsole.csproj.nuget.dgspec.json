@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/home/rek/Рабочий стол/C#/ReymarchingConsole/ReymarchingConsole/ReymarchingConsole.csproj": {}
+    "/home/y9kap/RiderProjects/Raymarching/ReymarchingConsole/ReymarchingConsole.csproj": {}
   },
   "projects": {
-    "/home/rek/Рабочий стол/C#/ReymarchingConsole/ReymarchingConsole/ReymarchingConsole.csproj": {
+    "/home/y9kap/RiderProjects/Raymarching/ReymarchingConsole/ReymarchingConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rek/Рабочий стол/C#/ReymarchingConsole/ReymarchingConsole/ReymarchingConsole.csproj",
+        "projectUniqueName": "/home/y9kap/RiderProjects/Raymarching/ReymarchingConsole/ReymarchingConsole.csproj",
         "projectName": "ReymarchingConsole",
-        "projectPath": "/home/rek/Рабочий стол/C#/ReymarchingConsole/ReymarchingConsole/ReymarchingConsole.csproj",
-        "packagesPath": "/home/rek/.nuget/packages/",
-        "outputPath": "/home/rek/Рабочий стол/C#/ReymarchingConsole/ReymarchingConsole/obj/",
+        "projectPath": "/home/y9kap/RiderProjects/Raymarching/ReymarchingConsole/ReymarchingConsole.csproj",
+        "packagesPath": "/home/y9kap/.nuget/packages/",
+        "outputPath": "/home/y9kap/RiderProjects/Raymarching/ReymarchingConsole/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/rek/.nuget/NuGet/NuGet.Config"
+          "/home/y9kap/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,15 +38,15 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "System.Drawing.Common": {
+            "SixLabors.ImageSharp": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[3.1.12, )"
             }
           },
           "imports": [
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.113/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/y9kap/.dotnet/sdk/9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
