@@ -1,5 +1,6 @@
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Runtime.CompilerServices;
 
 namespace RaymarchingConsole;
 
@@ -68,6 +69,11 @@ public class Printer
             }
         }
         
-        picture.Save("./picture.png",ImageFormat.Png);
+        string sourcePath = GetSourceFilePath();
+        string? projectDir = Path.GetDirectoryName(sourcePath);
+        string fullPath = Path.Combine(projectDir ?? string.Empty, "picture.png");
+        picture.Save(fullPath, ImageFormat.Png);
     }
+
+    static string GetSourceFilePath([CallerFilePath] string? path = null) => path ?? string.Empty;
 }
